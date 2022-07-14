@@ -1,0 +1,33 @@
+@import './scss/reset';
+.border{
+  border: 1px solid black;
+}
+.text-center{
+  text-align: center;
+}
+
+.main-wrapper{
+  display: flex;
+  flex-direction: column;
+  &__border{
+    margin: 15px;
+    padding:  15px;
+  }
+  &__title, &__description{
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  &__list-comments{
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  &__textarea{
+    width: 100%;
+    padding:5px 5px 100px 5px;
+    margin-bottom: 10px;
+
+  }
+}
+.display-flex{
+  display: flex;
+}
